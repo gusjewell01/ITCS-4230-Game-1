@@ -58,7 +58,7 @@ if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
              else if (sprite_index = spr_side_walk & image_xscale = -1) {
             sprite_index = spr_interact_left
 			}
-            else if (sprite_index = spr_side_walk & image_xscale = 1) {
+            else if (sprite_index = spr_side_walk) {
             sprite_index = spr_interact_right  
 			}
 			
