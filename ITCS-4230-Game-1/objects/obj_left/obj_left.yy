@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_left",
-    "path": "sprites/spr_left/spr_left.yy",
+    "name": "spr_left_arrow",
+    "path": "sprites/spr_left_arrow/spr_left_arrow.yy",
   },
   "solid": false,
   "visible": true,

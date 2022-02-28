@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_up",
-    "path": "sprites/spr_up/spr_up.yy",
+    "name": "spr_up_arrow",
+    "path": "sprites/spr_up_arrow/spr_up_arrow.yy",
   },
   "solid": false,
   "visible": true,
