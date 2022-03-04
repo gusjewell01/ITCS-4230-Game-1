@@ -3,7 +3,10 @@
 
 if state= States.Regular {
 	var bestDistance = maxInteractDistance
+	interactTarget = noone
 	
+	x = clamp(x, sprite_width/2, room_width - sprite_width/2);
+	y = clamp(y, sprite_height/2, room_height - sprite_height/2);
 	with obj_arrow {
 		var thisDistance = point_distance(x, y, other.x, other.y);
 		
