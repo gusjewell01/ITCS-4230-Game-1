@@ -16,7 +16,7 @@ if(distance_to_object(obj_player) < 100){
 	speed = move_speed
 
 	if(distance_to_point(patrolPosX, patrolPosY)< .001){
-		path_start(firstPath, move_speed, path_action_continue, true)
+		path_start(path1, move_speed, path_action_continue, true)
 		path_position = pathPos
 		tracking = false
 		show_debug_message(tracking)
