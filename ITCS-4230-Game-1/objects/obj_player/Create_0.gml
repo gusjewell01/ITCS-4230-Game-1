@@ -2,7 +2,8 @@
 // You can write your code in this editor
 enum States {
 	Regular, 
-	Interacting
+	Interacting,
+	Stun
 }
 
 enum InteractAxis {

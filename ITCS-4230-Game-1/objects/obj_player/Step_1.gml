@@ -1,7 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if state= States.Regular {
+if(state == States.Stun){
+	vspeed = 0
+	hspeed = 0
+	return;
+}
+
+if state == States.Regular {
 	var bestDistance = maxInteractDistance
 	interactTarget = noone
 	
@@ -19,15 +25,15 @@ if state= States.Regular {
 if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
 {
 	if instance_exists(interactTarget) {
-		if (interactTarget.arrow_orientation = 0) {
+		if (interactTarget.arrow_orientation == 0) {
 			interactTarget.arrow_orientation = 2;
 		}
-		else if (interactTarget.arrow_orientation = 2) {
+		else if (interactTarget.arrow_orientation == 2) {
 			interactTarget.arrow_orientation = 0;
 		}
-		else if (interactTarget.arrow_orientation = 1) {
+		else if (interactTarget.arrow_orientation == 1) {
 			interactTarget.arrow_orientation = 3
-		} else if (interactTarget.arrow_orientation = 3) {
+		} else if (interactTarget.arrow_orientation == 3) {
 			interactTarget.arrow_orientation = 1;
 		}
 		
@@ -50,17 +56,17 @@ if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
 		//	}
 		//}
 		
-		if (sprite_index = spr_back_walk) {
+		if (sprite_index == spr_back_walk) {
 			sprite_index = spr_interact_back
 			}
-            else if (sprite_index = spr_front_walk) {
+            else if (sprite_index == spr_front_walk) {
             sprite_index = spr_interact_front    
 			}
 			
-             else if (sprite_index = spr_side_walk & image_xscale = -1) {
+             else if (sprite_index == spr_side_walk & image_xscale = -1) {
             sprite_index = spr_interact_left
 			}
-            else if (sprite_index = spr_side_walk) {
+            else if (sprite_index == spr_side_walk) {
             sprite_index = spr_interact_right  
 			}
 			
@@ -70,29 +76,23 @@ if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
 
 var inputVect_x = (keyboard_check(vk_right)-keyboard_check(vk_left)),
     inputVect_y = (keyboard_check(vk_down)-keyboard_check(vk_up)),
-	    speedSpeed = walkSpeed,
-		    hCancel = 1, vCancel = 1;
+	speedSpeed = walkSpeed,
 			
-		if state=States.Interacting  {
-			speedSpeed = 0;
-		if interactDirection = InteractAxis.down {
+if state == States.Interacting  {
+	speedSpeed = 0;
+	if interactDirection == InteractAxis.down {
 			
-			sprite_index = spr_interact_front
-		}
-		if interactDirection = InteractAxis.up {
-			sprite_index = spr_interact_back
-		}
-		if interactDirection = InteractAxis.left {
-		sprite_index = spr_interact_left
-		}
-		if interactDirection = InteractAxis.right {
-			sprite_index = spr_interact_right	
-		}
-			
-		
-		
-		
-		
-		}
-			hspeed = inputVect_x * speedSpeed * hCancel
-		vspeed = inputVect_y * speedSpeed * vCancel
+		sprite_index = spr_interact_front
+	}
+	if interactDirection == InteractAxis.up {
+		sprite_index = spr_interact_back
+	}
+	if interactDirection == InteractAxis.left {
+	sprite_index = spr_interact_left
+	}
+	if interactDirection == InteractAxis.right {
+		sprite_index = spr_interact_right	
+	}
+}
+	hspeed = inputVect_x * speedSpeed
+	vspeed = inputVect_y * speedSpeed
