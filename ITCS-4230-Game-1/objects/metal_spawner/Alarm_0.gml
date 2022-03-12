@@ -18,7 +18,11 @@ if (i == 4) {
 	instance_create_layer(x, y, "Instances", obj_yellow_metal);
 }
 if (i ==5) {
-	instance_create_layer(x, y, "Instances", obj_toxic_metal);
+	instance_create_layer(x, y, "Instances", obj_toxic_metal_green);
+}
+
+if (i ==6) {
+	instance_create_layer(x, y, "Instances", obj_toxic_metal_orange);
 }
 
 alarm[0] = spawn_rate;

@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"23dac382-628a-4332-94bc-3ec8eaeec39f","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"23dac382-628a-4332-94bc-3ec8eaeec39f","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},"LayerId":{"name":"8d2fbfb4-52d7-4642-bb6d-d682fe1c190a","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_toxic_metal","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},"resourceVersion":"1.0","name":"23dac382-628a-4332-94bc-3ec8eaeec39f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"LayerId":{"name":"2639cadb-95ad-478b-9a0b-4c8e60b0c212","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_toxic_metal","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},
+    "spriteId": {"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2fefaf65-be91-412c-9f24-1855572ed885","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23dac382-628a-4332-94bc-3ec8eaeec39f","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c9553be0-854e-4f8f-95a0-816f84b0bae0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_toxic_metal","path":"sprites/spr_toxic_metal/spr_toxic_metal.yy",},
+    "parent": {"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_toxic_metal",
+    "name": "spr_toxic_metal_green",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d2fbfb4-52d7-4642-bb6d-d682fe1c190a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2639cadb-95ad-478b-9a0b-4c8e60b0c212","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_toxic_metal",
+  "name": "spr_toxic_metal_green",
   "tags": [],
   "resourceType": "GMSprite",
 }

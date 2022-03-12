@@ -24,7 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_toxic_metal","path":"objects/obj_toxic_metal/obj_toxic_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_toxic_metal_orange","path":"objects/obj_toxic_metal_orange/obj_toxic_metal_orange.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_toxic_metal_green","path":"objects/obj_toxic_metal_green/obj_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +34,7 @@
     "path": "folders/Objects/Metal.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_toxic_reciever",
+  "name": "obj_green_toxic_reciever",
   "tags": [],
   "resourceType": "GMObject",
 }
