@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_toxic_barrel",
-    "path": "sprites/spr_toxic_barrel/spr_toxic_barrel.yy",
+    "name": "spr_toxic_metal_green",
+    "path": "sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_blue_container",
-    "path": "objects/obj_blue_container/obj_blue_container.yy",
+    "name": "obj_blue_metal",
+    "path": "objects/obj_blue_metal/obj_blue_metal.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_toxic_metal_orange","path":"objects/obj_toxic_metal_orange/obj_toxic_metal_orange.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Metal.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_toxic_barrel",
+  "name": "obj_toxic_metal_green",
   "tags": [],
   "resourceType": "GMObject",
 }
