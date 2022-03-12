@@ -8,5 +8,10 @@ if(state == States.Stun){
 	timer = true
 	return;
 }
+if(flashAlpha > 0){
+	flashAlpha -= 0.05;
+}
+
+
 x = clamp(x, 16, room_width - sprite_width/2);
 y = clamp(y, sprite_height/2, room_height - sprite_height/2);

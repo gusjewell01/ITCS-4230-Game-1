@@ -14,8 +14,11 @@ enum InteractAxis {
 	down
 }
 
-health = 100;
 state = States.Regular
 
 interactTarget = noone
 interactDirection = InteractAxis.none
+
+
+flashAlpha = 0;
+flashColor = c_red;

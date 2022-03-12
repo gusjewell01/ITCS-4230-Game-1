@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_toxic_barrel",
-    "path": "sprites/spr_toxic_barrel/spr_toxic_barrel.yy",
+    "name": "spr_block",
+    "path": "sprites/spr_block/spr_block.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_red_container",
-    "path": "objects/obj_red_container/obj_red_container.yy",
+    "name": "obj_blue_container",
+    "path": "objects/obj_blue_container/obj_blue_container.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_toxic_metal_orange","path":"objects/obj_toxic_metal_orange/obj_toxic_metal_orange.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Metal.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_toxic_barrel",
+  "name": "obj_toxic_reciever",
   "tags": [],
   "resourceType": "GMObject",
 }

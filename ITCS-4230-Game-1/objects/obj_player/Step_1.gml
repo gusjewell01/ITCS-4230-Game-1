@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 if(state == States.Stun){
-	vspeed = 0
-	hspeed = 0
+	vspeed = irandom_range(-5, 5)
+	hspeed = irandom_range(-5, 5)
 	return;
 }
 
