@@ -37,8 +37,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Metal",
+    "path": "folders/Objects/Metal.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_blue_metal",
