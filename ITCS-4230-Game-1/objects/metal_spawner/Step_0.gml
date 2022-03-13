@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.state = States.Stun
-other.stunTime = 100
-other.timer = false
+if (obj_player.hp <=0) {
+	room_goto(1);
+}
 
-other.hp -= 10;
+if (score >= 10) {
+	room_goto(0);
+}

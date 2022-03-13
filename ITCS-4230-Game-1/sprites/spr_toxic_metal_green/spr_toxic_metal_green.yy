@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 2,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"LayerId":{"name":"2639cadb-95ad-478b-9a0b-4c8e60b0c212","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"16d69cea-683e-4d3e-8f36-4ba14c206cbb","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"16d69cea-683e-4d3e-8f36-4ba14c206cbb","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"LayerId":{"name":"db6ab1f5-65e8-4586-b98f-21baacea4245","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","name":"16d69cea-683e-4d3e-8f36-4ba14c206cbb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c9553be0-854e-4f8f-95a0-816f84b0bae0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89c85288-190d-4228-81f5-e61f2a9cb4d8","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"74cf3301-8395-4a6f-b01f-b8d8e60c8741","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16d69cea-683e-4d3e-8f36-4ba14c206cbb","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2639cadb-95ad-478b-9a0b-4c8e60b0c212","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db6ab1f5-65e8-4586-b98f-21baacea4245","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
