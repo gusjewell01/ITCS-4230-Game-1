@@ -17,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +27,7 @@
     "path": "folders/Objects/Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "play_button",
+  "name": "robj_instruction_controller",
   "tags": [],
   "resourceType": "GMObject",
 }
