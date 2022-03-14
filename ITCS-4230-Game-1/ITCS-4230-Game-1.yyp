@@ -79,6 +79,7 @@
     {"id":{"name":"obj_toxic_metal_orange","path":"objects/obj_toxic_metal_orange/obj_toxic_metal_orange.yy",},"order":3,},
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},"order":1,},
     {"id":{"name":"spr_metal_background","path":"sprites/spr_metal_background/spr_metal_background.yy",},"order":14,},
+    {"id":{"name":"spr_instructions8","path":"sprites/spr_instructions8/spr_instructions8.yy",},"order":47,},
     {"id":{"name":"firstPath","path":"paths/firstPath/firstPath.yy",},"order":0,},
     {"id":{"name":"obj_up","path":"objects/obj_up/obj_up.yy",},"order":7,},
     {"id":{"name":"spr_yellow_metal","path":"sprites/spr_yellow_metal/spr_yellow_metal.yy",},"order":8,},
