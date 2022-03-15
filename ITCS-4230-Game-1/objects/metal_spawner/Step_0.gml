@@ -9,3 +9,4 @@ spawn_rate = 350 - (score * .6);
 if (score >= 300) {
 	room_goto(Win);
 }
+
