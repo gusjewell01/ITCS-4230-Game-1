@@ -5,4 +5,5 @@ other.stunTime = 100
 other.timer = false
 
 other.hp -= damage;
+audio_play_sound(snd_crumple, 1, false)
 instance_destroy();

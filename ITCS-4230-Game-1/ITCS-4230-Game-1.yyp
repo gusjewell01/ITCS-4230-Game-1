@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_enemy_shooter","path":"objects/obj_enemy_shooter/obj_enemy_shooter.yy",},"order":2,},
+    {"id":{"name":"snd_win_game","path":"sounds/snd_win_game/snd_win_game.yy",},"order":7,},
     {"id":{"name":"obj_toxic_barrel","path":"objects/obj_toxic_barrel/obj_toxic_barrel.yy",},"order":2,},
     {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},"order":1,},
     {"id":{"name":"spr_down_arrow","path":"sprites/spr_down_arrow/spr_down_arrow.yy",},"order":7,},
@@ -47,6 +48,7 @@
     {"id":{"name":"spr_yellow_container","path":"sprites/spr_yellow_container/spr_yellow_container.yy",},"order":13,},
     {"id":{"name":"obj_credit_button","path":"objects/obj_credit_button/obj_credit_button.yy",},"order":5,},
     {"id":{"name":"obj_left_invis","path":"objects/obj_left_invis/obj_left_invis.yy",},"order":5,},
+    {"id":{"name":"snd_crumple","path":"sounds/snd_crumple/snd_crumple.yy",},"order":9,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"spr_instructions7","path":"sprites/spr_instructions7/spr_instructions7.yy",},"order":6,},
     {"id":{"name":"spr_caution","path":"sprites/spr_caution/spr_caution.yy",},"order":28,},
@@ -68,6 +70,7 @@
     {"id":{"name":"spr_toxic_metal_green","path":"sprites/spr_toxic_metal_green/spr_toxic_metal_green.yy",},"order":27,},
     {"id":{"name":"obj_red_metal","path":"objects/obj_red_metal/obj_red_metal.yy",},"order":10,},
     {"id":{"name":"spr_instructions1","path":"sprites/spr_instructions1/spr_instructions1.yy",},"order":0,},
+    {"id":{"name":"snd_switch_flip","path":"sounds/snd_switch_flip/snd_switch_flip.yy",},"order":8,},
     {"id":{"name":"snd_incorrect_bin","path":"sounds/snd_incorrect_bin/snd_incorrect_bin.yy",},"order":3,},
     {"id":{"name":"spr_lose_screen","path":"sprites/spr_lose_screen/spr_lose_screen.yy",},"order":32,},
     {"id":{"name":"spr_instructions2","path":"sprites/spr_instructions2/spr_instructions2.yy",},"order":1,},

@@ -1,1 +1,2 @@
-audio_play_sound(snd_menu_music, 1, true)
+//audio_play_sound(snd_menu_music, 1, true)
+ready = true;

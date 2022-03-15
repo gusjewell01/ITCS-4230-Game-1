@@ -8,5 +8,6 @@ spawn_rate = 350 - (score * .6);
 
 if (score >= 300) {
 	room_goto(Win);
+	audio_play_sound(snd_win_game, 1, false);
 }
 

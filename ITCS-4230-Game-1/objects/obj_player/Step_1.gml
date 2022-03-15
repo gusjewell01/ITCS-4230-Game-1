@@ -24,7 +24,9 @@ if state == States.Regular {
 
 if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
 {
+	
 	if instance_exists(interactTarget) {
+		audio_play_sound(snd_switch_flip, 1, false);
 		if (interactTarget.arrow_orientation == 0) {
 			interactTarget.arrow_orientation = 2;
 		}
