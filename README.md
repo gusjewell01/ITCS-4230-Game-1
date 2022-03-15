@@ -16,7 +16,6 @@ E - Innteract with conveyor belt arrow
 
 Cheat Codes:
 
-Alt + L - Gain Points
-Alt + W - Win Screen
-Alt + "+" - Increase Move Speed
-Alt + "-" - Decrease Move Speed
+Ctrl + P - Gain 50 Points
+Ctrl + W - Win Screen
+Ctrl + H - Heal To Full

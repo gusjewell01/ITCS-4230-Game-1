@@ -62,7 +62,6 @@ if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
             else if (sprite_index == spr_front_walk) {
             sprite_index = spr_interact_front    
 			}
-			
              else if (sprite_index == spr_side_walk & image_xscale = -1) {
             sprite_index = spr_interact_left
 			}
@@ -76,12 +75,11 @@ if (keyboard_check_pressed(ord("E")) and state != States.Interacting)
 
 var inputVect_x = (keyboard_check(vk_right)-keyboard_check(vk_left)),
     inputVect_y = (keyboard_check(vk_down)-keyboard_check(vk_up)),
-	speedSpeed = walkSpeed,
+	speedSpeed = walkSpeed
 			
 if state == States.Interacting  {
 	speedSpeed = 0;
 	if interactDirection == InteractAxis.down {
-			
 		sprite_index = spr_interact_front
 	}
 	if interactDirection == InteractAxis.up {

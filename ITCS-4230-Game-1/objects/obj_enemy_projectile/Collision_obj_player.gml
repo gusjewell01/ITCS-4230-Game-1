@@ -3,4 +3,6 @@
 other.state = States.Stun
 other.stunTime = 100
 other.timer = false
+
+other.hp -= damage;
 instance_destroy();

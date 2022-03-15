@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(Menu)
-score = 0;
+
+// Inherit the parent event
+event_inherited();
+
+alarm[1] = 5;

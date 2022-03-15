@@ -4,4 +4,4 @@ other.state = States.Stun
 other.stunTime = 100
 other.timer = false
 chase = false
-other.hp -= 10;
+other.hp -= damage;

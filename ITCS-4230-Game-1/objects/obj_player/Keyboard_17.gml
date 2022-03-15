@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(Menu)
-score = 0;
+if(keyboard_check_released(ord("H"))){
+	hp = 100;
+}
