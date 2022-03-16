@@ -54,6 +54,7 @@
     {"id":{"name":"spr_caution","path":"sprites/spr_caution/spr_caution.yy",},"order":28,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},"order":6,},
+    {"id":{"name":"snd_slime","path":"sounds/snd_slime/snd_slime.yy",},"order":10,},
     {"id":{"name":"obj_pathTest","path":"objects/obj_pathTest/obj_pathTest.yy",},"order":2,},
     {"id":{"name":"obj_toxic_metal_green","path":"objects/obj_toxic_metal_green/obj_toxic_metal_green.yy",},"order":12,},
     {"id":{"name":"spr_interact_back","path":"sprites/spr_interact_back/spr_interact_back.yy",},"order":22,},
