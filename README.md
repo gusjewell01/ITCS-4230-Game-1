@@ -8,10 +8,10 @@ Suzy Clark
 Trinity Scurlark
 
 Controls
-W - Move Up
-A - Move Left
-S - Move Down
-D - Move Right 
+Up Arrow - Move Up
+Left Arrow - Move Left
+Down Arrow - Move Down
+Right Arrow - Move Right 
 E - Innteract with conveyor belt arrow
 
 Cheat Codes:
